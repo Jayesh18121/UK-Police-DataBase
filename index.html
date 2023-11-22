@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK police stations</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="logo.png">
+</head>
+ 
+<body>
+    
+    <nav id="navbar">
+        <div class="container">
+            <h1 id="nav_header">Welcome To Uk Police Database</h1>
+        </div>
+    </nav>
+ 
+    <section class="input_container">
+        <h2 class="input_label">
+            Search for  information of crimes!!!!
+          </h2>
+          <div class="form__wrap">
+            <div class="input__wrap">
+                <input type="text" placeholder="Type of crimes" id="input">
+                <button id="search" >Search</button>
+            </div>
+            <div id="result">
+            </div>
+            <div id="table-container"></div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

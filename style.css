@@ -1,0 +1,93 @@
+body{
+    background: #eee;
+    background-image: url("https://th.bing.com/th/id/OIP.uJtY4-9jPAekMdMFvPBjNAHaE7?w=1575&h=1048&rs=1&pid=ImgDetMain");
+}
+
+.signupdiv{
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 3px #ccc;
+    padding: 10px;
+    margin-top: 100px;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: yellow; /* Set text color */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; /* Center-align the text */
+    margin-top: 50px; /* Add space above the heading */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing */
+  }
+
+  h2 {
+    color: whitesmoke; /* Set text color */
+    font-family: fantasy;
+    text-align: center; /* Center-align the text */
+    margin-top: 50px; /* Add space above the heading */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing */
+  }
+
+/* Styles for the form container */
+.form__wrap {
+    max-width: 400px; /* Set a maximum width for the form container */
+    margin: 0 auto; /* Center the form container horizontally */
+    padding: 20px; /* Add some padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Add border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+
+  /* Styles for the input wrapper */
+  .input__wrap {
+    margin-bottom: 15px; /* Add space below the input wrapper */
+  }
+
+  /* Styles for the input field */
+  input {
+    width: 70%; /* Set the width of the input field */
+    padding: 10px; /* Add padding */
+    margin-right: 10px; /* Add space to the right of the input field */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+  }
+
+  /* Styles for the search button */
+  button {
+    padding: 10px 15px; /* Add padding */
+    background-color: #007bff; /* Set the background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove the border */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+
+  /* Styles for the result container */
+  #result {
+    margin-top: 15px; /* Add space above the result container */
+    padding: 10px; /* Add padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Add border-radius for rounded corners */
+  }
+
+  #ans2 {
+    color: red;
+  }
+
+  #ans3 {
+    color:yellow;
+  }
+
+  #ans4 {
+    color: white;
+  }
+
+
+ #table-container{
+     background-color: #363062;
+ }
